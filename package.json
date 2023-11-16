@@ -1,0 +1,23 @@
+{
+  "name": "taschenrechner-api",
+  "version": "1.0.0",
+  "description": "Ein Taschenrechner-Service mit API-Ansatz und REST-ähnlicher Struktur für primitive Rechenoperationen",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "start-prod": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anna Monika und Irena",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "API",
+    "Taschenrechner",
+    "Express"
+  ]
+}
